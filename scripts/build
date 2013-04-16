@@ -1,3 +1,4 @@
 #!/bin/sh
 
+mkdir $DESTDIR/opt/nby-scripts || exit 1
 cp * $DESTDIR/opt/nby-scripts || exit 1
