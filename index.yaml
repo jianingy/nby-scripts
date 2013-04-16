@@ -1,0 +1,13 @@
+# This is a multipkg build spec. For more information, please
+# refer to http://github.com/jianingy/multipkg
+---
+default:
+  name: nby-scripts
+  version: '1.414'
+  summary: my scripts
+
+rpm:
+  arch: noarch
+
+deb:
+  arch: all
